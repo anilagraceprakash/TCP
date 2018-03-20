@@ -1,0 +1,21 @@
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~$ cd TCPex
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/TCPex$ git init
+Initialized empty Git repository in /home/mca/TCPex/.git/
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/TCPex$ git remote add ts https://github.com/anilagraceprakash/TCP.git
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/TCPex$ git pull ts master
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/anilagraceprakash/TCP
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> ts/master
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/TCPex$ git add .
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/TCPex$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   client.java
+
+
